@@ -230,6 +230,19 @@ input[type=submit] {
 /*-- Responsive Breakpoints --*/
 
 @media only screen and (max-width: 980px){
+  .main-section {
+     width: 66%;
+     margin-left: 20px;
+  }
+
+  #logo{
+    margin-left:20px;
+  }
+
+  nav{
+    margin-right:20px;
+  }
+
 
 }
 
