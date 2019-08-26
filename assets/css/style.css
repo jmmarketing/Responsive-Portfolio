@@ -188,10 +188,12 @@ h3, h2 {
 
 #contact-form ul {
   margin-bottom: 20px;
+  margin-left:-40px;
 }
 
 #contact-form li {
   margin-bottom: 10px;
+  list-style-type: none;
 }
 
 label,
