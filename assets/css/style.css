@@ -54,6 +54,12 @@ h3 {
   font-size: 22px;
 }
 
+/*-- Sets Animation properties --*/
+@keyframes imgFade{
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
 /* header */
 
 #masthead {
@@ -142,6 +148,19 @@ h3, h2 {
   border: 1px solid #dddddd;
 }
 
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+
+  /*-- Calls the Animation --*/
+  animation-name: imgFade;
+  animation-duration: 4s;
+}
+
+
 /* portfolio page */
 
 .work {
@@ -160,6 +179,9 @@ h3, h2 {
   width: 100%;
   border: 0 none;
   opacity: 0.8;
+  /*-- Calls the Animation --*/
+  animation-name: imgFade;
+  animation-duration: 4s;
 }
 
 .work h3 {
@@ -174,14 +196,9 @@ h3, h2 {
   text-align: center;
   background: #4aaaa5;
   border-bottom: 0;
-}
-
-.auth-image {
-  float: left;
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
+  /*-- Calls the Animation --*/
+  animation-name: imgFade;
+  animation-duration: 4s;
 }
 
 /* contact page */
